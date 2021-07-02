@@ -119,6 +119,9 @@
 .menu.menu-mission {
     transform: translate(-52.2%, -50%);
 }
+    .menu.menu-service {
+    transform: translate(-50%, -50%);
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -157,6 +160,9 @@
     .menu.menu-mission {
         transform: translate(-52.8%, -50%);
     }
+    .menu.menu-service {
+    transform: translate(-50%, -50%);
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -177,4 +183,7 @@
     .menu.menu-mission {
         transform: translate(-52.6%, -50%);
     }
+    .menu.menu-service {
+    transform: translate(-50%, -50%);
+}
 }
