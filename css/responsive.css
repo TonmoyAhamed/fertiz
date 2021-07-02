@@ -1,0 +1,180 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .menu ul li a {
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+    .social-icons ul li a {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .social-icons ul li {
+        margin: 0 10px;
+    }
+    .service {
+        padding: 0 20px;
+        padding-top: 50%;
+        padding-bottom: 10%;
+    }
+    #synergy .service {
+        padding: 0 40px;
+        padding-top: 35%;
+        padding-bottom: 15%;
+    }
+    #mission .service {
+        padding: 0 21px;
+        padding-top: 50%;
+        padding-bottom: 25%;
+    }
+    .mbl {
+        display: block;
+    }
+    .menu.menu1{
+        display: none;
+    }
+    .menu ul li {
+        margin: 2px 0px;
+    }
+    .menu.menu2 {
+        position: fixed;
+        width: 100%;
+        transform: translate(0, 0);
+        left: 0;
+        top: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .social-icons ul li {
+        margin: 0 35px;
+    }
+    .service {
+        padding: 0 20px;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+    #synergy .service {
+        padding: 0 40px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    #mission .service {
+        padding: 0 21px;
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+    .mbl {
+        display: block;
+    }
+    .menu.menu1{
+        display: none;
+    }
+    .menu ul li a {
+        padding: 4px 4px;
+        font-size: 14px;
+    }
+    .menu.menu2 {
+        position: fixed;
+        width: 100%;
+        transform: translate(0, 0);
+        left: 0;
+        top: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .service {
+        padding-top: 60%;
+        padding-bottom: 25%;
+    }
+    #synergy .service {
+        padding: 0 30px;
+        padding-top: 50%;
+    }
+    #mission .service {
+        padding: 0 40px;
+        padding-top: 45%;
+        padding-bottom: 15%;
+    }
+    .menu ul li a {
+        padding: 6px 5px;
+        font-size: 16px;
+    }
+    .mbl {
+        display: none;
+    }
+    .menu.menu2{
+        display: none;
+    }
+    .menu.menu-synergy {
+        transform: translate(-52.1%, -50%);
+        -webkit-transform: translate(-52.1%, -50%);
+        -moz-transform: translate(-52.1%, -50%);
+        -ms-transform: translate(-52.1%, -50%);
+        -o-transform: translate(-52.1%, -50%);
+}
+.menu.menu-mission {
+    transform: translate(-52.2%, -50%);
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .service {
+        padding-top: 50%;
+        padding-bottom: 35%;
+    }
+    #synergy .service {
+        padding: 0px 50px;
+        padding-top: 50%;
+        padding-bottom: 30%;
+    }
+    .menu ul li a {
+        padding: 4px 8px;
+        font-size: 20px;
+    }
+    #mission .service {
+        padding: 0 100px;
+            padding-top: 0px;
+        padding-top: 45%;
+    }
+    .mbl {
+        display: none;
+    }
+    .menu.menu2{
+        display: none;
+    }
+    .menu.menu-synergy {
+        transform: translate(-52.1%, -50%);
+        -webkit-transform: translate(-52.5%, -50%);
+        -moz-transform: translate(-52.1%, -50%);
+        -ms-transform: translate(-52.1%, -50%);
+        -o-transform: translate(-52.1%, -50%);
+    }
+    .menu.menu-mission {
+        transform: translate(-52.8%, -50%);
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mbl {
+        display: none;
+    }
+    .menu.menu2{
+        display: none;
+    }
+    .menu.menu-synergy {
+        transform: translate(-52.1%, -50%);
+        -webkit-transform: translate(-52.5%, -50%);
+        -moz-transform: translate(-52.1%, -50%);
+        -ms-transform: translate(-52.1%, -50%);
+        -o-transform: translate(-52.1%, -50%);
+    }
+    .menu.menu-mission {
+        transform: translate(-52.6%, -50%);
+    }
+}

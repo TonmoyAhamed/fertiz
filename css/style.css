@@ -1,0 +1,134 @@
+/*==============fonts================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+/*==============fonts================*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*==============default css================*/
+.bgc1{
+    background-color: #000;
+}
+.bgc2{
+    background-color: rgb(102,0,102);
+}
+.pad-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.bgc3{
+    background-color: #FFC000;
+}
+.wd-100{
+    width: 100%;
+}
+/*==============default css================*/
+/*==============Company================*/
+section#company {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section {
+    width: 100%;
+    text-align: center;
+}
+.social-icons ul {
+    margin: 52px 0 0 0;
+}
+.social-icons ul li {
+    margin: 0 55px;
+}
+.social-icons ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    background: #5B9BD5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    margin-bottom: 50px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    z-index: 999999999;
+    transform: translate(-51.7%, -50%);
+}
+.menu ul {
+    margin: 0;
+    display: inline-block;
+    background: #5b9bd5;
+}
+.menu ul li {
+    background: #5B9BD5;
+    margin-right: 0 !important;
+    border-right: 1px solid #0000005c;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 8px;
+    display: inline-block;
+    font-size: 22px;
+}
+.logo a {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+/*==============Company================*/
+/*==============Services================*/
+#company{
+    position: relative;
+}
+section#service-container {
+    width: 100%;
+    position: relative;
+}
+.service {
+    min-height: 100vh;
+    padding: 0 40px;
+    padding-top: 50%;
+    text-align: center;
+}
+.service-heading p {
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+/*==============Services================*/
+#synergy{
+    position: relative;
+}
+#synergy .service {
+    padding: 0 100px;
+    padding-top: 50%;
+}
+#mission{
+    position: relative;
+}
+#mission .service {
+    padding: 0 100px;
+    padding-top: 50%;
+}
+#mbl1{
+    display: none;
+}
+#mbl2{
+    display: none;
+}
+#mbl3{
+    display: none;
+}
